@@ -58,7 +58,6 @@ export class ProductsController {
     .pipe(
       catchError(err => { throw new RpcException(err) })
     )
-
   }
 
 
